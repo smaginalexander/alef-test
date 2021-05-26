@@ -1,0 +1,30 @@
+@import url(./__text-container/footer__text-container.css);
+@import url(./__form/footer__form.css);
+@import url(./__form-container/footer__form-container.css);
+.footer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px;
+    width: 1280px;
+    background: #1f2021;
+}
+
+@media screen and (max-width: 1280px) {
+    .footer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .footer {
+        padding: 10px;
+    }
+}

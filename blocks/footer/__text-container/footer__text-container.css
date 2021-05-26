@@ -1,0 +1,23 @@
+.footer__text-container {
+    color: white;
+}
+
+.footer__text-container > p:first-child {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.footer__text-container > p:last-child {
+    font-size: 28px;
+    width: 260px;
+}
+
+@media screen and (max-width: 475px) {
+    .footer__text-container > p:first-child {
+        font-size: 28px;
+    }
+    .footer__text-container > p:last-child {
+        font-size: 14px;
+    }
+}

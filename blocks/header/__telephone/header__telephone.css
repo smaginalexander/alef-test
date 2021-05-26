@@ -1,0 +1,31 @@
+.header__telephone {
+    width: 189px;
+    position: relative;
+    font-weight: 700;
+    color: white;
+    font-size: 24px;
+}
+
+.header__telephone::after {
+    position: absolute;
+    content: "Звони скорее!";
+    top: 30px;
+    right: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1150px) {
+    .header__telephone {
+        width: 141px;
+        font-size: 18px;
+    }
+    .header__telephone::after {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .header__telephone {
+        display: none;
+    }
+}

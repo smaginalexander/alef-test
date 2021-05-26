@@ -1,0 +1,75 @@
+.footer__form-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.footer__form-container > input {
+    padding-left: 30px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    line-height: 17px;
+    width: 300px;
+    height: 65px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.footer__form-container > input::placeholder {
+    color: black;
+}
+
+.footer__form-container > button {
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+    width: 250px;
+    height: 65px;
+    background: #6ebbd3;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.footer__form-container > button:hover {
+    background: #7bd6f1;
+}
+
+@media screen and (max-width: 1280px) {
+    .footer__form-container > input {
+        width: 200px;
+        height: 45px;
+    }
+    .footer__form-container > button {
+        width: 200px;
+        height: 45px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer__form-container > input {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .footer__form-container > button {
+        width: 80%;
+    }
+    .footer__form-container {
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .footer__form-container > input {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 25px;
+    }
+    .footer__form-container > button {
+        width: 100%;
+    }
+}

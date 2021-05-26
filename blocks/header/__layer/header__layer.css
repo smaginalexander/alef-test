@@ -1,0 +1,23 @@
+.header__layer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 130px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: rgba(31, 32, 33, 0.79);
+}
+
+.header__logo {
+    position: relative;
+    width: 78px;
+    height: 50px;
+}
+
+@media screen and (max-width: 767px) {
+    .header__layer {
+        padding: 50px 50px;
+    }
+}

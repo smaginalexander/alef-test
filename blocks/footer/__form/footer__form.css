@@ -1,0 +1,54 @@
+.footer__form {
+    width: 560px;
+}
+
+.footer__form > input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+label {
+    font-size: 14px;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+label::before {
+    margin-right: 18px;
+    content: "";
+    width: 18px;
+    height: 18px;
+    background: white;
+    border-radius: 3px;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+.footer__form > input:checked + label::before {
+    border-color: #0b76ef;
+    background-color: #0b76ef;
+    background-image: url("../../../images/vector.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer__form > input:hover + label::before {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.712);
+}
+
+@media screen and (max-width: 768px) {
+    .footer__form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .footer__form {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

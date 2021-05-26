@@ -1,0 +1,21 @@
+.content__btn {
+    outline: none;
+    border: 1px solid #cacaca;
+    background: #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 380px;
+    height: 65px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.content__btn:hover {
+    background: #fffdfd;
+}
+
+@media screen and (max-width: 475px) {
+    .content__btn {
+        width: 300px;
+    }
+}

@@ -1,0 +1,35 @@
+.card__info {
+    overflow: hidden;
+    padding: 0 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.color {
+    padding-left: 18px;
+    border-left: 4px solid #6ebbd3;
+}
+
+.old {
+    margin: 12px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.old > span {
+    font-size: 12px;
+    font-weight: 400;
+}
+.legs {
+    margin: 12px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.legs > span {
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 400;
+}

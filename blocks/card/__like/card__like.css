@@ -1,0 +1,30 @@
+@keyframes heartbeat {
+    0% {
+        background-size: 100%;
+    }
+    50% {
+        background-size: 95%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
+
+.card__like {
+    cursor: pointer;
+    position: absolute;
+    width: 46px;
+    height: 41px;
+    right: 35px;
+    top: 35px;
+    background-repeat: no-repeat;
+    background-image: url(../../../images/greylike.svg);
+}
+
+.card__like:hover {
+    animation: heartbeat 1.5s infinite;
+}
+
+.card__like_active {
+    background-image: url(../../../images/like.svg);
+}

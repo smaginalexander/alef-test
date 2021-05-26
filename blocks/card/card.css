@@ -1,0 +1,21 @@
+@import url(./__img/card__img.css);
+@import url(./__info/card__info.css);
+@import url(./__name/card__name.css);
+@import url(./__prise/card__prise.css);
+@import url(./__btn/card__btn.css);
+@import url(./__like/card__like.css);
+@import url(./__sale/card__sale.css);
+.card {
+    position: relative;
+    /* width: 380px; */
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #f3f3f3;
+}
+
+@media screen and (max-width: 1280px) {
+    .card {
+        width: 310px;
+    }
+}
