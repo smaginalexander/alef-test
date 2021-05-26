@@ -1,5 +1,5 @@
 .header__telephone {
-    width: 189px;
+    width: 225px;
     position: relative;
     font-weight: 700;
     color: white;
@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 1150px) {
     .header__telephone {
-        width: 141px;
+        width: 167px;
         font-size: 18px;
     }
     .header__telephone::after {
