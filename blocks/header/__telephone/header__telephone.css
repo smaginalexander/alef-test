@@ -1,7 +1,6 @@
 .header__telephone {
     text-align: end;
     width: 225px;
-    position: relative;
     font-weight: 700;
     color: white;
     font-size: 24px;
@@ -17,7 +16,7 @@
         width: 167px;
         font-size: 18px;
     }
-    .header__telephone::after {
+    .header__telephone > span {
         font-size: 16px;
     }
 }
