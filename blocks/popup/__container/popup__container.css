@@ -1,4 +1,6 @@
 .popup__container {
+    padding: 10px;
+    box-sizing: border-box;
     font-size: 24px;
     font-weight: 700;
     display: flex;
@@ -8,4 +10,21 @@
     height: 30%;
     background-color: white;
     border-radius: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .popup__container {
+        text-align: center;
+        width: 80%;
+        height: 60%;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .popup__container {
+        text-align: center;
+        font-size: 18px;
+        width: 95%;
+        height: 30%;
+    }
 }

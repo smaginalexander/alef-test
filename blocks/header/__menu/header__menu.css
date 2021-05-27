@@ -24,6 +24,10 @@
     color: red;
 }
 
+.header__link:focus {
+    color: red;
+}
+
 @media screen and (max-width: 1150px) {
     .header__menu > ul {
         width: 100%;

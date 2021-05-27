@@ -12,8 +12,14 @@
     align-items: center;
 }
 
+@media screen and (max-width: 767px) {
+    .content {
+        padding: 70px 5px 50px 5px;
+    }
+}
+
 @media screen and (max-width: 475px) {
     .content {
-        padding: 40px 5px 50px 5px;
+        padding: 70px 5px 50px 5px;
     }
 }

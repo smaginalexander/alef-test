@@ -1,4 +1,5 @@
 .header__telephone {
+    cursor: pointer;
     text-align: end;
     width: 225px;
     font-weight: 700;
